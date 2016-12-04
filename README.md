@@ -9,7 +9,7 @@ Download or clone the repo, and copy it into the Assets/Aceade folder.
 Click on the Tools menu, then click on "Aceade", then "Multi-Standalone Build". By default, it creates a 64-bit Linux, 64-bit Windows and 64-bit Mac build in a folder named "Player Files" directly below the project root.
 
 ### Changing the defaults
-The default naming convention is "{Application.name}_{Platform}_{BuildDate}", e.g. "BuildProcess_Linux_4.12.2016". To change the build date, you will need to edit the `GetBuildDate` method.
+The default naming convention is "{Application.name}\_{Platform}\_{BuildDate}", e.g. "BuildProcess_Linux_4.12.2016". To change the build date, you will need to edit the `GetBuildDate` method.
 
 ## Licence
 
